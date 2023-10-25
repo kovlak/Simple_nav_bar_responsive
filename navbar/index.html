@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Navbar #1 | testings</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="/navbar/style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    </head>
+    <body>
+        <nav class="navbar" aria-label="a">
+            <div class="navbar-overlay" onclick="toggleMenuOpen()"></div>
+
+            <button type="button" class="navbar-burguer" onclick="toggleMenuOpen()">
+                <span class="material-symbols-outlined">Menu</span>
+            </button>
+
+            <h1 class="navbar-title">NavBar</h1>
+            <nav class="navbar-menu" aria-label="b">
+                <button type="button" class="active">YouTube</button>
+                <button type="button" class="active">Archive</button>
+                <button type="button">Projects</button>
+            </nav>
+        </nav>
+        <script type="text/javascript">
+            const toggleMenuOpen = () => document.body.classList.toggle('open');
+        </script>
+    </body>
+</html>
