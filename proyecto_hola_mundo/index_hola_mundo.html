@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Titulo hola mundo</title>
+    <link rel="stylesheet" href="./style_hola_mundo.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <style>
+       table,th,td{
+        border:1px solid black;
+       }
+    </style>
+</head>
+<body>
+    <h1>Estoy es un header</h1>
+    <h2>segundo header</h2>
+    <img src="https://imgv3.fotor.com/images/videoImage/ai-generated-beautiful-girl-like-a-beautiful-model-by-Fotor-ai-image-generator_2023-05-30-053050_brwf.jpg" alt="" width="200">
+    <hr><p>lineas de separación</p><hr>
+    <p>parrafo exterior
+        <hr>
+        <span>parrafo interior</span>
+        <hr>
+        <div class="material-symbols-outlined">
+            <a target="_blank" href="https://google.com">add_box</a>
+        </div>
+    </p>
+    <div class="formulario">
+        <h3>Formulario</h3>
+        <form action="/formulario" method="POST">
+            <label for="nombre">Nombre:</label>
+            <input id="nombre" type="text" name="nombre" placeholder="Nombre"><br>
+            <label for="correo">Correo:</label>
+            <input id="correo" type="text" name="correo" placeholder="Correo"><br>
+            <label for="">Teléfono:</label>
+            <input id="telefono" type="number" name="telefono" placeholder="Teléfono"><br>
+            <label for="Comentarios"></label>
+            <textarea id="Comentarios"name="Comentarios" cols="30" rows="10" placeholder="Tus comentarios..."></textarea><br>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+            <button type="reset"> 
+                <span class="material-symbols-outlined">
+                    sync_alt
+                    </span>
+            </button>
+        </form>
+    </div>
+    <aside>
+        <ul>
+            <li>Elemento UL</li>
+            <li>Elemento UL</li>
+            <li>Elemento UL</li>
+        </ul>
+        <ol >
+            <li>Elementos OL</li>
+            <li>Elementos OL</li>
+            <li>Elementos OL</li>
+        </ol>
+    </aside>
+
+    <div>
+        <table>
+            <thead>
+                <tr>
+                    <th>Producto</th>
+                    <th>Precio</th>
+                    <th>Currency</th>
+                    <th>Descripción</th>
+                    <th>Total</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>PC gamer</td>
+                    <td>$2000</td>
+                    <td>CLP</td>
+                    <td>PC gamer con todas sus características sabrosas para el gaming. </td>
+                </tr> 
+                <tr>
+                    <td>PC laptop</td>
+                    <td>$24000</td>
+                    <td>USD</td>
+                    <td>laptop gamer con todas sus características sabrosas para el gaming. </td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <td>Total</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>26000</td>
+            </tfoot>
+        </table>
+    </div>
+</body>
+</html>
